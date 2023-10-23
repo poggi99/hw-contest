@@ -1,0 +1,30 @@
+[
+    {
+        "Nome": "Stefano",
+        "Cognome": "Taborelli",
+        "Telefono": 367,
+        "Pagato": "si",
+        "Votato": "no"
+    },
+    {
+        "Nome": "Stefano",
+        "Cognome": "Taborelli",
+        "Telefono": 369,
+        "Pagato": "si",
+        "Votato": "no"
+    },
+    {
+        "Nome": "Stefano",
+        "Cognome": "Taborelli",
+        "Telefono": 371,
+        "Pagato": "si",
+        "Votato": "no"
+    },
+    {
+        "Nome": "Stefano",
+        "Cognome": "Taborelli",
+        "Telefono": 373,
+        "Pagato": "si",
+        "Votato": "no"
+    }
+]
