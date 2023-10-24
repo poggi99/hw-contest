@@ -249,10 +249,9 @@ app.get('/classifica', (req, res) => {
     if (classifica.length > 0) {
         classificaPage += `
             <header class="pt-5">
-                <div class="row gx-5 align-items-center">
-                    <!-- Header text content-->
-                    <div class="text-center text-xxl-start">
-                        <div class="row gx-5 align-items-center"><h1 class="display-3 fw-bolder"><span class="text-gradient d-inline">Classifica</span></h1>
+                <div class="container">
+                    <div class="row gx-5 align-items-center text-center">
+                            <h1 class="display-3 fw-bolder"><span class="text-gradient d-inline">Classifica</span></h1>
                     </div>
                 </div>
             </header>
@@ -266,7 +265,9 @@ app.get('/classifica', (req, res) => {
                     <div class="text-center my-2">
                         <h3>${(classifica[index]).nome}</h3>
                         <div class="badge bg-gradient-primary-to-secondary text-white mb-2">voti: ${(classifica[index]).voto}</div>
-                        <img src="/public/${(classifica[index]).nomeFile}" alt="${(classifica[index]).nome}" style="max-width: 100%;"/>
+                        <div>    
+                            <img src="/public/${(classifica[index]).nomeFile}" alt="${(classifica[index]).nome}" style="max-width: 100%;"/>
+                        </div>
                     </div>
                 </div>
             </div>
