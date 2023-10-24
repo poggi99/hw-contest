@@ -241,7 +241,7 @@ app.get('/classifica', (req, res) => {
         classificaPage += ``;
     } else {
         classificaPage += `
-        <h2>${avviso}</h2>
+        <h2 style="text-align: center;">🦴🎉${avviso}🎉☠️</h2>
         `;
     }
 
